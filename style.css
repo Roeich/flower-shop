@@ -1,0 +1,376 @@
+/* common shared styles */
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+}
+
+.btn-primary:hover {
+    background: #e73b60;
+}
+
+
+/* header section */
+
+.header-section {
+    padding-top: 50px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.header-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.header-contentBox {}
+
+.header-content {
+    max-width: 708px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.header-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.header-imgBox {
+    padding-left: 97px;
+}
+
+.header-img {
+    max-width: 100%;
+}
+
+
+/* main section */
+
+.main-section {}
+
+.feature-section {
+    padding: 178px 0px 128px 0px;
+}
+
+.feature-container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.feature-header {
+    max-width: 594px;
+    margin: auto;
+}
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.feature-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.featured-imageItems {
+    display: flex;
+    margin: 0px -12px 0px -12px;
+}
+
+.featured-imageItem {
+    padding: 0px 12px;
+    width: 33.33%;
+}
+
+.featured-imgBox {
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 32px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.featured-imageItem-1 .featured-imgBox {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-imageItem-2 .featured-imgBox {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-imageItem-3 .featured-imgBox {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-img {
+    max-width: 100%;
+}
+
+.featured-imgTitle {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+
+/* service features section */
+
+.service-feature-section {
+    margin-bottom: 128px;
+}
+
+.service-feature-container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 86px 175px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.service-features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-feature {
+    text-align: center;
+}
+
+.service-featureIcon {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 24px;
+}
+
+.service-featureTitle {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+/* hot deal section */
+
+.hot-deal-section {
+    padding: 100px 0px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-container {
+    max-width: 1098px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hot-deal-contentBox {
+    max-width: 594px;
+    text-align: center;
+}
+
+.hot-deal-content {}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.hot-deal-title span {
+    color: #E55473;
+}
+
+.hot-deal-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+
+/* instagram post section */
+
+.instagram-post-section {
+    padding-top: 128px;
+}
+
+.instagram-post-container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.instagram-post-header {
+    max-width: 594px;
+    margin: auto;
+    text-align: center;
+}
+
+.instagram-post-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.instagram-post-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.instagram-post-items {
+    display: flex;
+    margin: 0px -12px;
+}
+
+.instagram-post-item {
+    padding: 0px 12px;
+    width: 25%;
+}
+
+.instagram-post-img {
+    max-width: 100%;
+}
+
+
+/* subscribe section */
+
+.subscribe-section {
+    padding: 128px 0px;
+}
+
+.subscribe-container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 122px 288px;
+    border-radius: 8px;
+    background-image: url("images/background-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe-header {
+    text-align: center;
+}
+
+.subscribe-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.subscribe-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.subscribe-form {
+    display: flex;
+}
+
+.subscribe-form-inp {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 22px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 700px;
+    margin-right: 16px;
+}
+
+
+/* footer section */
+
+.footer-section {
+    padding: 128px 0px;
+    background: #111010;
+}
+
+.footer-container {
+    max-width: 625px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.footer-title span {
+    color: #FFF;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer-copyright-text {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
