@@ -35,52 +35,10 @@ body {
 
 /* header section */
 .header-section{
-    padding: 16px 0px;
-    background: rgba(229, 84, 115, 0.10);
-    border-bottom: 1px solid rgba(229, 84, 115, 0.10);
-}
-.header-container{
-   max-width: 1440px;
-   margin: auto; 
-   display: flex;
-   justify-content: space-between;
-}
-.header-logoTitle {
-    color: #E55473;
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 0px;
-}
-
-.header-logoTitle span {
-    color: #272727;
-}
-.header-nav{}
-.header-navBar{
-    display: flex;
-    align-items: center;
-    margin-bottom: 0px;
-    list-style: none;
-
-}
-.header-navItem{
-    margin-left: 16px;
-}
-.header-navLink{
-    display: inline-block;
-    padding: 8px 16px;
-    text-decoration: none;
-    color:#272727
-}
-.header-navLink.active{
-    color: #E55473;
-    font-weight: bold;
-}
-/* banner section */
-.banner-section {
     padding-top: 50px;
     background: rgba(229, 84, 115, 0.10);
 }
+/* banner section */
 
 .banner-container {
     max-width: 1440px;
@@ -122,11 +80,70 @@ body {
 
 
 /* main section */
-
 .main-section {}
-
+.product-section{
+    padding: 128px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.product-container{
+    max-width: 1440px;
+    margin: auto;
+}
+.product-header{
+    max-width: 720px;
+    margin: auto;
+}
+.product-section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.product-section-title span{
+    color: #E55473;
+}
+.product-section-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin:-24px -12px 0px -12px;
+}
+.product-item{
+    width: 25%;
+    padding: 0px 12px;
+    margin-top: 24px;
+}
+.product-card{
+    display: block;
+    text-decoration: none;
+    color:#272727;
+    padding-bottom: 16px;
+}
+.product-img{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.product-title{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.product-card:hover .product-title{
+    color:#E55473;
+}
+.product-price{
+    font-weight: 700;
+}
+/* Featured Flowers section */
 .feature-section {
-    padding: 178px 0px 128px 0px;
+    padding: 130px 0px 128px 0px;
 }
 
 .feature-container {
@@ -190,14 +207,16 @@ body {
 }
 
 .featured-imgTitle {
-    color: #272727;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
 }
-
+.featured-imgTitle a{
+    color: #272727;
+    text-decoration: none;
+}
 
 /* service features section */
 
@@ -283,7 +302,7 @@ body {
 /* instagram post section */
 
 .instagram-post-section {
-    padding-top: 128px;
+    padding: 128px 0px;
 }
 
 .instagram-post-container {
@@ -326,6 +345,47 @@ body {
     max-width: 100%;
 }
 
+
+/* hot deal section */
+
+.about-section {
+    padding: 50px 0px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.about-container {
+    max-width: 1098px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-contentBox {
+    max-width: 594px;
+}
+
+.about-content {}
+
+.about-section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.about-title span {
+    color: #E55473;
+}
+
+.about-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
 
 /* subscribe section */
 
